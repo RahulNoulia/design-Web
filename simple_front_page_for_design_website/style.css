@@ -1,0 +1,80 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root
+{
+    --main-head-color:rgba(180, 30, 30, 0.671);
+}
+header
+{
+    height:80px;
+    width: 100%;
+    background-color:var(--main-head-color);
+    
+}
+
+ #heading
+{
+   
+    color: azure;
+    display: inline-block;
+    margin:20px 0 0 70px;
+    font-family: 'lato';
+    font-weight: 100;
+}
+header .container #menu
+{
+   float: right;
+   margin-right: 40px;
+   margin-top: 30px;
+   
+}
+#menu li{
+    display: inline;
+    margin-right: 20px;
+
+}
+#menu a
+{
+    text-decoration: none;
+    color: azure
+}
+#menu a:hover
+{
+    font-weight: bold;
+}
+.sec
+{
+   height: 73vh;
+   background: linear-gradient(rgba(0, 0, 0, 0.336),rgba(10, 10, 10, 0.281)),url("./img/I_2.jpeg") no-repeat;
+   background-position: center;
+   background-size:cover;  
+   overflow: hidden;
+
+}
+.sec .show
+{
+    text-align: center;
+    padding:190px;
+    color:azure;
+    font-size:50px;
+    font-weight:100; ;
+    font-family: sans-serif;
+    text-shadow: 0 10px 20px rgb(170, 35, 35);
+}
+.sec .show p
+{
+    text-shadow: 0 10px 40px rgb(156, 4, 4);
+}
+footer
+{
+    background-color:var(--main-head-color);
+    text-align: center;
+    height: 80px;
+    color: azure;
+    padding:30px;
+    
+}
